@@ -1,0 +1,64 @@
+id: lean-dashboard-manuelle-linienmontage-murat
+artifact_type: kmu_branchenmodell
+title: Lean-Dashboard fuer manuelle Linienmontage
+category: production_operations_lean_management
+status: bronze_candidate
+language: de
+version: 0.1.0
+maintainer: Murat Toprakezen
+license: pending_review
+license_status: offen_bis_freigabe
+data_risk: yellow
+human_review_required: true
+ai_act_proximity: low_to_medium
+legal_disclaimer: >
+  Dieses Artefakt ist eine fachliche Arbeits- und Strukturierungshilfe fuer Lean-Analysen.
+  Es ist keine Rechtsberatung, kein Audit, keine Arbeitssicherheitsfreigabe und keine
+  automatisierte Entscheidung ueber Personen oder Beschaeftigte.
+sources_status: partly_documented
+intended_users:
+  - Produktionsleiter
+  - Betriebsingenieure
+  - Industrial Engineering
+  - Prozessingenieure
+  - Lean Management
+  - Operational Excellence
+  - Werkleiter
+intended_context:
+  - bestehende manuelle Montageprozesse
+  - Shopfloor Review
+  - KVP Workshop
+  - PDCA Testplanung
+  - Management One-Pager
+required_inputs:
+  - Produktionszeit pro Schicht
+  - Schichtanzahl
+  - Linienauslastung
+  - Sollmenge
+  - Stationsanzahl
+  - Mitarbeitendenanzahl je Station
+  - wertschoepfende Zeit je Station
+  - synthetische oder anonymisierte NVA-Verlustzeiten
+expected_outputs:
+  - Taktzeit
+  - Durchlaufzeit
+  - Stationslast
+  - NVA-Restzeit
+  - Verlustcluster
+  - Engpasskandidaten
+  - Lean-Hypothesen
+  - PDCA-Arbeitspaket
+  - To-Do-Liste
+  - Ergebnisbericht
+  - Management-One-Pager
+trust_notes:
+  - Keine personenbezogenen Leistungsdaten eingeben.
+  - Keine vertraulichen Betriebs- oder Kundendaten verwenden.
+  - Ergebnisse am Shopfloor validieren.
+  - Arbeitssicherheit, Ergonomie und Qualitaet muessen menschlich pruefen.
+review_questions:
+  - Sind Zielgruppe und Einsatzkontext konkret genug?
+  - Sind alle Eingaben synthetisch oder ausreichend anonymisiert?
+  - Sind die Lean-Prinzipien fachlich plausibel abgeleitet?
+  - Sind Grenzen und Fehlanwendungen ausreichend dokumentiert?
+  - Ist das Artefakt fuer bronze_candidate geeignet?
